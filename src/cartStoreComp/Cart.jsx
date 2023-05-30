@@ -8,9 +8,9 @@ const Cart = ({ addCart, setAddCart }) => {
     // const dispatch = useDispatch();
     // console.log(count);
 
-    setAddCart((oldItem) => {
-        return [{ count: count, ...oldItem }];
-    });
+//     setAddCart((oldItem) => {
+//         return [{ count: count, ...oldItem }];
+//     });
 
     const productIncrDecr = (id, quantity) => {
         addCart.filter(product => {
